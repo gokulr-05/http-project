@@ -1,0 +1,77 @@
+.movie-bucket-1 {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.movie-form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #d7a86e;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+}
+
+.movie-form label {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* #################################### MEDIA QUERY #######################  */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .movie-bucket-1 {
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  .movie-form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #d7a86e;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .movie-bucket-1 {
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  .movie-form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #d7a86e;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .movie-bucket-1 {
+    width: 80%;
+    margin: 100px auto;
+  }
+
+  .movie-form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d7a86e;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

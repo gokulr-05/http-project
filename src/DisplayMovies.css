@@ -1,0 +1,70 @@
+.DisplayMovies {
+  width: 50%;
+  margin: 100px auto;
+  background-color: #d7a86e;
+  border-radius: 10px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+}
+
+.display-movie-items {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* #################################### MEDIA QUERY #######################  */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .DisplayMovies {
+    width: 90%;
+    margin: 100px auto;
+    background-color: #d7a86e;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+  }
+
+  .display-movie-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .DisplayMovies {
+    width: 90%;
+    margin: 100px auto;
+    background-color: #d7a86e;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+  }
+
+  .display-movie-items {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .DisplayMovies {
+    width: 80%;
+    margin: 100px auto;
+    background-color: #d7a86e;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.432);
+  }
+
+  .display-movie-items {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
